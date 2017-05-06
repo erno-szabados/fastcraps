@@ -6,7 +6,8 @@ interface
 
 uses
   Classes, SysUtils, FileUtil, IDEWindowIntf, Forms, Controls, Graphics,
-  Dialogs, Menus, ExtCtrls, StdCtrls, Spin, Buttons, Math, CrapsGame;
+  Dialogs, Menus, ExtCtrls, StdCtrls, Spin, Buttons, Math, CrapsGame,
+  gameuserguideform;
 
 type
 
@@ -176,8 +177,15 @@ begin
 end;
 
 procedure TGameMainForm.MenuItemUserGuideClick(Sender: TObject);
+var UserGuideForm : TUserGuideForm;
 begin
-  // TODO
+  Application.CreateForm(TUserGuideForm, UserGuideForm);
+  //Form := UserGuideForm.Create(Self);
+  try
+    UserGuideForm.ShowModal;
+  finally
+    UserGuideForm.Free;
+  end;
 end;
 
 procedure TGameMainForm.NewGameButtonClick(Sender: TObject);

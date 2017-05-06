@@ -35,7 +35,7 @@
         <PackageName Value="LCL"/>
       </Item2>
     </RequiredPackages>
-    <Units Count="3">
+    <Units Count="4">
       <Unit0>
         <Filename Value="fastcraps.lpr"/>
         <IsPartOfProject Value="True"/>
@@ -43,12 +43,21 @@
       <Unit1>
         <Filename Value="gamemainform.pas"/>
         <IsPartOfProject Value="True"/>
+        <ComponentName Value="GameMainForm"/>
         <HasResources Value="True"/>
+        <ResourceBaseClass Value="Form"/>
+        <UnitName Value="GameMainForm"/>
       </Unit1>
       <Unit2>
         <Filename Value="crapsgame.pas"/>
         <IsPartOfProject Value="True"/>
+        <UnitName Value="CrapsGame"/>
       </Unit2>
+      <Unit3>
+        <Filename Value="gameuserguideform.pas"/>
+        <IsPartOfProject Value="True"/>
+        <HasResources Value="True"/>
+      </Unit3>
     </Units>
   </ProjectOptions>
   <CompilerOptions>

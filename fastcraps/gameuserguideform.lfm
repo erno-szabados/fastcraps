@@ -1,0 +1,48 @@
+object UserGuideForm: TUserGuideForm
+  Left = 355
+  Height = 480
+  Top = 331
+  Width = 640
+  BorderStyle = bsDialog
+  Caption = 'User Guide'
+  ClientHeight = 480
+  ClientWidth = 640
+  OnCreate = FormCreate
+  LCLVersion = '1.6.4.0'
+  object UserGuideMemo: TMemo
+    AnchorSideLeft.Control = Owner
+    AnchorSideTop.Control = Owner
+    AnchorSideRight.Control = Owner
+    AnchorSideRight.Side = asrBottom
+    AnchorSideBottom.Control = UserGuideOkButton
+    Left = 5
+    Height = 446
+    Top = 5
+    Width = 630
+    Anchors = [akTop, akLeft, akRight, akBottom]
+    BorderSpacing.Around = 5
+    Lines.Strings = (
+      'UserGuideMemo'
+    )
+    ReadOnly = True
+    ScrollBars = ssAutoVertical
+    TabOrder = 0
+  end
+  object UserGuideOkButton: TButton
+    AnchorSideLeft.Control = Owner
+    AnchorSideLeft.Side = asrCenter
+    AnchorSideBottom.Control = Owner
+    AnchorSideBottom.Side = asrBottom
+    Left = 295
+    Height = 19
+    Top = 456
+    Width = 50
+    Anchors = [akTop, akLeft, akBottom]
+    BorderSpacing.Around = 5
+    Caption = 'OK'
+    Constraints.MaxHeight = 20
+    Constraints.MinWidth = 50
+    OnClick = UserGuideOkButtonClick
+    TabOrder = 1
+  end
+end

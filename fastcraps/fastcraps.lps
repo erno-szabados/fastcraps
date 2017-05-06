@@ -3,13 +3,12 @@
   <ProjectSession>
     <Version Value="10"/>
     <BuildModes Active="Default"/>
-    <Units Count="5">
+    <Units Count="7">
       <Unit0>
         <Filename Value="fastcraps.lpr"/>
         <IsPartOfProject Value="True"/>
-        <IsVisibleTab Value="True"/>
-        <CursorPos X="32" Y="12"/>
-        <UsageCount Value="49"/>
+        <CursorPos Y="21"/>
+        <UsageCount Value="51"/>
         <Loaded Value="True"/>
       </Unit0>
       <Unit1>
@@ -35,23 +34,82 @@
       <Unit3>
         <Filename Value="gamemainform.pas"/>
         <IsPartOfProject Value="True"/>
+        <ComponentName Value="GameMainForm"/>
         <HasResources Value="True"/>
-        <EditorIndex Value="-1"/>
-        <WindowIndex Value="-1"/>
-        <TopLine Value="-1"/>
-        <CursorPos X="-1" Y="-1"/>
-        <UsageCount Value="20"/>
+        <ResourceBaseClass Value="Form"/>
+        <UnitName Value="GameMainForm"/>
+        <EditorIndex Value="1"/>
+        <TopLine Value="165"/>
+        <CursorPos X="40" Y="184"/>
+        <UsageCount Value="22"/>
+        <Loaded Value="True"/>
+        <LoadedDesigner Value="True"/>
       </Unit3>
       <Unit4>
         <Filename Value="crapsgame.pas"/>
         <IsPartOfProject Value="True"/>
-        <EditorIndex Value="-1"/>
-        <WindowIndex Value="-1"/>
-        <TopLine Value="-1"/>
-        <CursorPos X="-1" Y="-1"/>
-        <UsageCount Value="20"/>
+        <UnitName Value="CrapsGame"/>
+        <EditorIndex Value="2"/>
+        <CursorPos X="34" Y="17"/>
+        <UsageCount Value="22"/>
+        <Loaded Value="True"/>
       </Unit4>
+      <Unit5>
+        <Filename Value="userguideform.pas"/>
+        <ComponentName Value="UserGuideForm"/>
+        <ResourceBaseClass Value="Form"/>
+        <UnitName Value="gameuserguideform"/>
+        <EditorIndex Value="-1"/>
+        <CursorPos X="28" Y="18"/>
+        <UsageCount Value="21"/>
+      </Unit5>
+      <Unit6>
+        <Filename Value="gameuserguideform.pas"/>
+        <IsPartOfProject Value="True"/>
+        <ComponentName Value="UserGuideForm"/>
+        <HasResources Value="True"/>
+        <ResourceBaseClass Value="Form"/>
+        <IsVisibleTab Value="True"/>
+        <EditorIndex Value="3"/>
+        <TopLine Value="5"/>
+        <CursorPos X="3" Y="37"/>
+        <UsageCount Value="20"/>
+        <Loaded Value="True"/>
+        <LoadedDesigner Value="True"/>
+      </Unit6>
     </Units>
-    <JumpHistory HistoryIndex="-1"/>
+    <JumpHistory Count="8" HistoryIndex="7">
+      <Position1>
+        <Filename Value="fastcraps.lpr"/>
+        <Caret Line="12" Column="32"/>
+      </Position1>
+      <Position2>
+        <Filename Value="gamemainform.pas"/>
+        <Caret Line="10" Column="16" TopLine="112"/>
+      </Position2>
+      <Position3>
+        <Filename Value="gamemainform.pas"/>
+        <Caret Line="186" Column="20" TopLine="88"/>
+      </Position3>
+      <Position4>
+        <Filename Value="gamemainform.pas"/>
+        <Caret Line="10" Column="20"/>
+      </Position4>
+      <Position5>
+        <Filename Value="gameuserguideform.pas"/>
+      </Position5>
+      <Position6>
+        <Filename Value="gamemainform.pas"/>
+        <Caret Line="10" Column="3"/>
+      </Position6>
+      <Position7>
+        <Filename Value="gamemainform.pas"/>
+        <Caret Line="182" Column="11" TopLine="163"/>
+      </Position7>
+      <Position8>
+        <Filename Value="gamemainform.pas"/>
+        <Caret Line="180" Column="13" TopLine="161"/>
+      </Position8>
+    </JumpHistory>
   </ProjectSession>
 </CONFIG>

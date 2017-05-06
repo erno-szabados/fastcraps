@@ -18,6 +18,7 @@ begin
   RequireDerivedFormResource:=True;
   Application.Initialize;
   Application.CreateForm(TGameMainForm, MainForm);
+//  Application.CreateForm(TUserGuideForm, UserGuideForm);
   Application.Run;
 end.
 
