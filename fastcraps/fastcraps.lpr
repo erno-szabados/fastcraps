@@ -1,11 +1,23 @@
 program fastcraps;
 
-uses
-  CrapsGame;
+{$mode objfpc}{$H+}
 
-var
-  game: tcrapsgame;
+uses
+  {$IFDEF UNIX}{$IFDEF UseCThreads}
+  cthreads,
+  {$ENDIF}{$ENDIF}
+  Interfaces, // this includes the LCL widgetset
+  Forms,
+  GameMainForm;
+
+{$R *.res}
+
+
 begin
-  game := TCrapsGame.Create;
-  game.SimulateFastCraps;
+  Application.Title:='FastCraps';
+  RequireDerivedFormResource:=True;
+  Application.Initialize;
+  Application.CreateForm(TGameMainForm, MainForm);
+  Application.Run;
 end.
+

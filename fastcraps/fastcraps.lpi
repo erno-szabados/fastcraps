@@ -3,15 +3,12 @@
   <ProjectOptions>
     <Version Value="10"/>
     <General>
-      <Flags>
-        <MainUnitHasCreateFormStatements Value="False"/>
-        <MainUnitHasTitleStatement Value="False"/>
-      </Flags>
       <SessionStorage Value="InProjectDir"/>
       <MainUnit Value="0"/>
-      <Title Value="fastcraps"/>
-      <UseAppBundle Value="False"/>
+      <Title Value="FastCraps"/>
       <ResourceType Value="res"/>
+      <UseXPManifest Value="True"/>
+      <Icon Value="0"/>
     </General>
     <i18n>
       <EnableI18N LFM="False"/>
@@ -30,16 +27,28 @@
         <FormatVersion Value="1"/>
       </local>
     </RunParams>
-    <Units Count="2">
+    <RequiredPackages Count="2">
+      <Item1>
+        <PackageName Value="IDEIntf"/>
+      </Item1>
+      <Item2>
+        <PackageName Value="LCL"/>
+      </Item2>
+    </RequiredPackages>
+    <Units Count="3">
       <Unit0>
         <Filename Value="fastcraps.lpr"/>
         <IsPartOfProject Value="True"/>
       </Unit0>
       <Unit1>
+        <Filename Value="gamemainform.pas"/>
+        <IsPartOfProject Value="True"/>
+        <HasResources Value="True"/>
+      </Unit1>
+      <Unit2>
         <Filename Value="crapsgame.pas"/>
         <IsPartOfProject Value="True"/>
-        <UnitName Value="CrapsGame"/>
-      </Unit1>
+      </Unit2>
     </Units>
   </ProjectOptions>
   <CompilerOptions>
@@ -53,6 +62,7 @@
     </SearchPaths>
     <CodeGeneration>
       <SmartLinkUnit Value="True"/>
+      <RelocatableUnit Value="True"/>
       <SmallerCode Value="True"/>
     </CodeGeneration>
     <Linking>
@@ -60,10 +70,12 @@
         <GenerateDebugInfo Value="False"/>
       </Debugging>
       <LinkSmart Value="True"/>
+      <Options>
+        <Win32>
+          <GraphicApplication Value="True"/>
+        </Win32>
+      </Options>
     </Linking>
-    <Other>
-      <WriteFPCLogo Value="False"/>
-    </Other>
   </CompilerOptions>
   <Debugging>
     <Exceptions Count="3">

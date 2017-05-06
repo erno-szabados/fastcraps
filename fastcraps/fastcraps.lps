@@ -3,147 +3,55 @@
   <ProjectSession>
     <Version Value="10"/>
     <BuildModes Active="Default"/>
-    <Units Count="2">
+    <Units Count="5">
       <Unit0>
         <Filename Value="fastcraps.lpr"/>
         <IsPartOfProject Value="True"/>
-        <CursorPos X="30" Y="11"/>
-        <UsageCount Value="24"/>
+        <IsVisibleTab Value="True"/>
+        <CursorPos X="32" Y="12"/>
+        <UsageCount Value="49"/>
         <Loaded Value="True"/>
       </Unit0>
       <Unit1>
+        <Filename Value="../fastui/gamemainform.pas"/>
+        <ComponentName Value="GameMainForm"/>
+        <HasResources Value="True"/>
+        <ResourceBaseClass Value="Form"/>
+        <UnitName Value="GameMainForm"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="217"/>
+        <CursorPos X="46" Y="249"/>
+        <UsageCount Value="49"/>
+        <LoadedDesigner Value="True"/>
+      </Unit1>
+      <Unit2>
+        <Filename Value="../fastui/crapsgame.pas"/>
+        <UnitName Value="CrapsGame"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="84"/>
+        <CursorPos X="17" Y="100"/>
+        <UsageCount Value="48"/>
+      </Unit2>
+      <Unit3>
+        <Filename Value="gamemainform.pas"/>
+        <IsPartOfProject Value="True"/>
+        <HasResources Value="True"/>
+        <EditorIndex Value="-1"/>
+        <WindowIndex Value="-1"/>
+        <TopLine Value="-1"/>
+        <CursorPos X="-1" Y="-1"/>
+        <UsageCount Value="20"/>
+      </Unit3>
+      <Unit4>
         <Filename Value="crapsgame.pas"/>
         <IsPartOfProject Value="True"/>
-        <UnitName Value="CrapsGame"/>
-        <IsVisibleTab Value="True"/>
-        <EditorIndex Value="1"/>
-        <TopLine Value="219"/>
-        <CursorPos X="3" Y="13"/>
-        <UsageCount Value="24"/>
-        <Loaded Value="True"/>
-      </Unit1>
+        <EditorIndex Value="-1"/>
+        <WindowIndex Value="-1"/>
+        <TopLine Value="-1"/>
+        <CursorPos X="-1" Y="-1"/>
+        <UsageCount Value="20"/>
+      </Unit4>
     </Units>
-    <JumpHistory Count="30" HistoryIndex="29">
-      <Position1>
-        <Filename Value="fastcraps.lpr"/>
-        <Caret Line="7" Column="20"/>
-      </Position1>
-      <Position2>
-        <Filename Value="fastcraps.lpr"/>
-        <Caret Line="4" Column="9"/>
-      </Position2>
-      <Position3>
-        <Filename Value="fastcraps.lpr"/>
-        <Caret Line="9" Column="27"/>
-      </Position3>
-      <Position4>
-        <Filename Value="crapsgame.pas"/>
-        <Caret Line="159" Column="51" TopLine="138"/>
-      </Position4>
-      <Position5>
-        <Filename Value="crapsgame.pas"/>
-        <Caret Line="69" Column="29" TopLine="50"/>
-      </Position5>
-      <Position6>
-        <Filename Value="crapsgame.pas"/>
-        <Caret Line="72" Column="17" TopLine="55"/>
-      </Position6>
-      <Position7>
-        <Filename Value="crapsgame.pas"/>
-        <Caret Line="176" Column="43" TopLine="137"/>
-      </Position7>
-      <Position8>
-        <Filename Value="crapsgame.pas"/>
-        <Caret Line="75" Column="63" TopLine="138"/>
-      </Position8>
-      <Position9>
-        <Filename Value="crapsgame.pas"/>
-        <Caret Line="68" Column="19" TopLine="46"/>
-      </Position9>
-      <Position10>
-        <Filename Value="crapsgame.pas"/>
-        <Caret Line="80" Column="23" TopLine="59"/>
-      </Position10>
-      <Position11>
-        <Filename Value="crapsgame.pas"/>
-        <Caret Line="70" Column="14" TopLine="59"/>
-      </Position11>
-      <Position12>
-        <Filename Value="crapsgame.pas"/>
-        <Caret Line="28" Column="24" TopLine="16"/>
-      </Position12>
-      <Position13>
-        <Filename Value="crapsgame.pas"/>
-        <Caret Line="76" Column="8" TopLine="74"/>
-      </Position13>
-      <Position14>
-        <Filename Value="crapsgame.pas"/>
-        <Caret Line="81" TopLine="115"/>
-      </Position14>
-      <Position15>
-        <Filename Value="crapsgame.pas"/>
-        <Caret Line="66" Column="11" TopLine="45"/>
-      </Position15>
-      <Position16>
-        <Filename Value="crapsgame.pas"/>
-        <Caret Line="74" Column="13" TopLine="53"/>
-      </Position16>
-      <Position17>
-        <Filename Value="crapsgame.pas"/>
-        <Caret Line="142" TopLine="114"/>
-      </Position17>
-      <Position18>
-        <Filename Value="crapsgame.pas"/>
-        <Caret Line="52" Column="26" TopLine="69"/>
-      </Position18>
-      <Position19>
-        <Filename Value="crapsgame.pas"/>
-        <Caret Line="123" Column="23" TopLine="105"/>
-      </Position19>
-      <Position20>
-        <Filename Value="crapsgame.pas"/>
-        <Caret Line="59" Column="40" TopLine="40"/>
-      </Position20>
-      <Position21>
-        <Filename Value="crapsgame.pas"/>
-        <Caret Line="52" Column="31" TopLine="32"/>
-      </Position21>
-      <Position22>
-        <Filename Value="crapsgame.pas"/>
-        <Caret Line="59" Column="25" TopLine="40"/>
-      </Position22>
-      <Position23>
-        <Filename Value="crapsgame.pas"/>
-        <Caret Line="60" Column="28" TopLine="37"/>
-      </Position23>
-      <Position24>
-        <Filename Value="crapsgame.pas"/>
-        <Caret Line="61" Column="27" TopLine="40"/>
-      </Position24>
-      <Position25>
-        <Filename Value="crapsgame.pas"/>
-        <Caret Line="180" TopLine="152"/>
-      </Position25>
-      <Position26>
-        <Filename Value="crapsgame.pas"/>
-        <Caret Line="188" Column="24" TopLine="154"/>
-      </Position26>
-      <Position27>
-        <Filename Value="crapsgame.pas"/>
-        <Caret Line="166" Column="44" TopLine="151"/>
-      </Position27>
-      <Position28>
-        <Filename Value="crapsgame.pas"/>
-        <Caret Line="87" Column="26" TopLine="115"/>
-      </Position28>
-      <Position29>
-        <Filename Value="crapsgame.pas"/>
-        <Caret Line="256" Column="27" TopLine="219"/>
-      </Position29>
-      <Position30>
-        <Filename Value="crapsgame.pas"/>
-        <Caret Line="236" Column="34"/>
-      </Position30>
-    </JumpHistory>
+    <JumpHistory HistoryIndex="-1"/>
   </ProjectSession>
 </CONFIG>
