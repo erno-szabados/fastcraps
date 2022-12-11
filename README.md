@@ -1,2 +1,2 @@
-# pas
-Pascal projects
+# fastcraps
+craps dice game with lazarus interface.
